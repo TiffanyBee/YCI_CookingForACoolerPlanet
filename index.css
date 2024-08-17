@@ -29,26 +29,17 @@ body {
     color: #FBF7EF;
 }
 .hero h1 {
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: bolder;
     margin-top: 0;
 }
 .hero h3 {
+    font-size: 2.5rem;
     font-weight:bold;
 }
-/*
 .hero a {
-    color: #FBF7EF;
-    font-size: 3rem;
-    text-decoration: none;
-    background-color: #bc4749;
-    padding: 2rem;
-    border-radius: 2rem;
-    display: inline-block;
-    margin-top: 4rem;
-    font-weight:bold;
+    margin-top: 1rem
 }
-*/
 .about-us {
     margin: 12rem 5rem;
     color: #386641;
@@ -58,17 +49,22 @@ body {
     font-weight: bold;
     margin: 3rem 0;
 }
-.about-us {
-    font-size: 1rem;
+.about-us-text p {
+    font-size: 2.3rem;
+    margin: 0;
 }
 .about-us a {
-    background-color: #d58a86;
+    background-color: #bc4749;
     font-size: 3rem;
     text-align: center;
+}
+#about-us-link{
+    text-align: center
 }
 .about-us img {
     display: block;
     width: 800px;
     margin: 5rem auto;
-
+    border-radius: 10px;
+    border: 20px solid #386641
 }
