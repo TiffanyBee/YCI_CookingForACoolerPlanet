@@ -1,70 +1,129 @@
-html {
-    width: fit-content;
-}
-body {
-    padding: 0;
+
+
+* {
     margin: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #FBF7EF;
+    padding: 0;
 }
-.button {
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav {
+    background-color: #dc9f9c;
+}
+.nav img {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
     text-align: center;
-    color: #FBF7EF;
-    font-size: 3rem;
-    text-decoration: none;
-    background-color: #bc4749;
-    padding: 2rem;
-    border-radius: 2rem;
+    padding: 1rem;
+}
+.nav ul {
+    text-align: center;
+}
+.nav li {
     display: inline-block;
-    margin-top: 4rem;
+    padding: 1rem;
+}
+.nav a {
+    text-decoration: none;
+    color:#386641;
     font-weight: bold;
 }
+.nav a:hover {
+    text-decoration-line: underline;;
+}
 
+.button {
+    text-decoration: none;
+    background-color: #dc9f9c;
+    color: #386641;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-weight: bolder;
+}
+.button:hover {
+    background-color: #bc4749;
+    color: #fbf7ef
+}
 
-/* saving nav bar for later */
 .hero {
-    text-align: center;
-    padding: 8rem 10rem;
     background-color: #6a994e;
-    color: #FBF7EF;
+    background-size: auto 100%;
+    padding: 7rem 4rem;
+    text-align: center;
+    color: #fbf7ef;
 }
 .hero h1 {
-    font-size: 5rem;
-    font-weight: bolder;
-    margin-top: 0;
+    margin-bottom: 2rem;
 }
 .hero h3 {
-    font-size: 2.5rem;
-    font-weight:bold;
+    font-weight:normal;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
 }
-.hero a {
-    margin-top: 1rem
+@media screen and (min-width: 1000px) {
+    .hero {
+        padding: 10rem 8rem;
+    }
+    .hero h1 {
+        font-size: 5rem;
+        margin-bottom: 3rem;
+    }
+    .hero h3 {
+        font-size: 2rem;
+        margin-bottom: 4rem;
+    }
+    .hero a {
+        font-size: 1.7rem;
+    }
 }
+
+
 .about-us {
-    margin: 12rem 5rem;
     color: #386641;
+    margin: 5rem 3rem;
+    display: inline-block;
+    max-width: 1200px;
+    overflow: auto;
+}
+.about-us-text {
+    display: inline-block;
 }
 .about-us h4 {
-    font-size: 5rem;
-    font-weight: bold;
-    margin: 3rem 0;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight:lighter;
 }
-.about-us-text p {
-    font-size: 2.3rem;
-    margin: 0;
+.about-us .about-us-text p {
+    line-height: 1.7rem;
+    font-weight: 100;
+    margin-bottom: 2.5rem;
+}
+.about-us #about-us-link {
+    text-align: center;
+    margin-bottom: 2.5rem;
 }
 .about-us a {
-    background-color: #bc4749;
-    font-size: 3rem;
-    text-align: center;
-}
-#about-us-link{
-    text-align: center
+    font-size: 1.2rem;
 }
 .about-us img {
-    display: block;
-    width: 800px;
-    margin: 5rem auto;
-    border-radius: 10px;
-    border: 20px solid #386641
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width: 830px) {
+    .about-us {
+        margin: 2rem auto;
+        display: block;
+    }
+    .about-us-text {
+        width: 50%;
+        margin-top: 5%;
+    }
+    .about-us img {
+        width: 550px;
+        float: right;
+    }
 }
