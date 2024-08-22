@@ -30,10 +30,12 @@ body {
     text-decoration: none;
     color:#386641;
     font-weight: bold;
+    font-size: 1.2rem;
 }
 .nav a:hover {
-    text-decoration-line: underline;;
-}
+    text-decoration-line: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;}
 
 .button {
     text-decoration: none;
@@ -82,8 +84,10 @@ body {
 
 
 .about-us {
+    background-color:#fbf7ef;
     color: #386641;
-    margin: 5rem 3rem;
+    padding: 5rem 3rem;
+    margin: 0;
     display: inline-block;
     max-width: 1200px;
     overflow: auto;
@@ -115,15 +119,36 @@ body {
 
 @media screen and (min-width: 830px) {
     .about-us {
-        margin: 2rem auto;
+        margin: 0 auto;
         display: block;
     }
     .about-us-text {
         width: 50%;
-        margin-top: 5%;
+        margin-top: 2%;
     }
     .about-us img {
-        width: 550px;
+        width: 45%;
         float: right;
     }
+}
+
+.footer {
+    background-color: white;
+    padding: 2rem;
+}
+.footer .logos {
+    max-width: fit-content;
+    margin: 0 auto;
+}
+#cookingforacoolerplanet {
+    margin-right: 1rem;
+}
+.footer img {
+    width: 140px;
+}
+
+.footer .contacts {
+}
+.footer a {
+    display: inline-block;
 }
