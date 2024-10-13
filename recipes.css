@@ -45,12 +45,12 @@ body {
 }
 .main-content h1 {
     font-size: 2.5rem;
-    margin-bottom: 1.5rem;
     font-weight: bolder;
 }
 .main-content .recipes h3 {
     margin: 0;
     margin-bottom: 2rem;
+    margin-top: 1.5rem;
     font-size: 1.75rem;
     font-weight: light;
     /*
@@ -107,4 +107,60 @@ body {
     padding: .5rem .7rem;
     font-size: .8rem;
     font-weight: bold;
+}
+.recipe:hover {
+    outline: 4px solid #000000;
+    outline-offset: -4px;
+    z-index:10;
+
+}
+
+.footer {
+    background-color: white;
+    padding: 2rem;
+    padding-top: 5rem;
+    margin: 0
+}
+.footer .logos {
+    max-width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+#cookingforacoolerplanet {
+    margin-right: 1rem;
+}
+.footer img {
+    width: 140px;
+}
+
+.browse {
+    text-align: center;
+}
+.browse h2 {
+    color:#386641;
+    font-size: 1.7rem;
+    margin-bottom: 1.2rem;
+}
+.browse ul {
+    list-style-type: none;
+}
+.browse a {
+    display: inline-block;
+    text-decoration: none;
+    color:#386641;
+    margin-bottom: .7rem;
+    font-weight: 400;
+}
+.footer .socials {
+    margin-top: 1rem;
+    text-align: center;
+}
+.socials a {
+    font-weight: lighter;
+    font-size: 1.5rem;
+    background-color:#386641;
+    padding: .6rem .7rem;
+    border-radius: 5px;
+    text-decoration: none;
+    color:#fbf7ef;
 }
