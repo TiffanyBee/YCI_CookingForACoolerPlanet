@@ -1,11 +1,12 @@
 body {
-    margin: 0;
-    padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-body {
     background-color: #FBF7EF;
 }
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .nav {
     background-color: #dc9f9c;
 }
@@ -27,13 +28,14 @@ body {
     text-decoration: none;
     color:#386641;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .nav a:hover {
     text-decoration-line: underline;
     text-underline-offset: 5px;
     text-decoration-thickness: 2px;
 }
+
 
 .main-content {
     margin: 1.2em;
@@ -54,8 +56,8 @@ body {
 .hero h2 {
     margin-bottom: 2em;
     font-weight: 400;
-    color: #386641;
     font-size: 1.1em;
+
 }
 
 .main-content h3 {
@@ -63,15 +65,16 @@ body {
     margin-bottom:.8em;
     font-weight: bolder
 }
+.main-content {
+    color: rgb(77 77 77);
+}
 .main-content p {
-    color: #386641;
     line-height: 1.5em;
     margin-bottom: 1.5em;
     margin-top: 0;
     font-size: 1.15em;
 }
 .main-content h4 {
-    color: #386641;
     font-size: 1.2em;
     margin-bottom: .5em;
     margin-top: 0;
@@ -83,3 +86,4 @@ body {
 .ranking li {
     font-size: 1.5em;
 }
+
