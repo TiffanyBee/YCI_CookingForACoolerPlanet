@@ -63,6 +63,21 @@ h3 {
 
 }
 
+#table-of-contents{
+    background-color: #dc9f9c;
+    color: #FBF7EF;
+    padding: 2em;
+    margin: 2em;
+}
+a {
+    color: #FBF7EF;
+    line-height: 1.5em;
+}
+
+#table-of-contents li {
+    margin-left: 2em;
+}
+
 .main-content span {
     font-weight: bold;
 }
@@ -83,7 +98,8 @@ h3 {
     font-weight: bolder;
 }
 .main-content {
-    color: rgb(77 77 77);
+    color:#386641;
+
 }
 .main-content p, .main-content ul {
     line-height: 1.5em;
@@ -96,7 +112,7 @@ h3 {
     width: 100%;
 }
 
-#essentials ul {
+#getting-started ul {
     margin-left: 2em;
 }
 
