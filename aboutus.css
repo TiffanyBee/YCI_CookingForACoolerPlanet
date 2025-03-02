@@ -50,6 +50,7 @@ body {
 }
 #main-content p {
     line-height: 23px;
+    margin-bottom: 1em;
 }
 
 #whole-team {
@@ -63,6 +64,7 @@ body {
 #about-us {
     padding: 2em;
 }
+
 
 #team-pictures {
     display: flex;

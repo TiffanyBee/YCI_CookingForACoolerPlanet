@@ -95,7 +95,7 @@ body {
 
 .main-recipe {
     padding: 25px;
-    color: rgb(77 77 77);
+    color: #386641;
     font-style: normal;
 }
 .main-recipe li {
@@ -104,7 +104,14 @@ body {
 .main-recipe h2 {
     font-size: 1.3em;
     font-family: "Lucida Grande";
+    color: rgb(77,77,77);
+    margin-bottom: 10em;
 }
+.main-recipe h3 {
+    font-size: 1.2em;
+    font-family: "Lucida Grande";
+}
+
 .notes {
     line-height: 22px;
     margin-bottom: 25px;
@@ -118,7 +125,8 @@ body {
     margin-bottom: 25px;
 }
 .ingredients h2 {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+    margin-top: 30px;
 }
 .ingredients li{
     margin-bottom: 15px;

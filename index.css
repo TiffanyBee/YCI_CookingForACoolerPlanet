@@ -133,11 +133,76 @@ body {
     }
 }
 
+
+.featured-recipes {
+    background-color:#fbf7ef;
+    color:#386641;
+    padding-left: 3em;
+}
+.featured-recipes h4 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight:lighter;
+}
+.recipe-cards {
+    display: grid;
+    gap: 1rem;
+}
+@media screen and (min-width: 600px) {
+    .recipe-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (min-width: 900px) {
+    .recipe-cards{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+.recipe{
+    position: relative;
+    text-align: center;
+    height: 275px;
+}
+.recipe img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+.recipe h5 {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    margin: 0;
+    color:#FBF7EF;
+    padding: .3rem
+}
+.recipe p {
+    position: absolute;
+    top: 13px;
+    left: -4px;
+    background-color: #386641;
+    color:#FBF7EF;
+    margin: 0;
+    padding: .5rem .7rem;
+    font-size: .8rem;
+    font-weight: bold;
+}
+.recipe:hover {
+    outline: 4px solid #000000;
+    outline-offset: -10px;
+    z-index:10;
+    filter: brightness(75%);
+}
+
+
 .footer {
     background-color: white;
     padding: 2rem;
     padding-top: 5rem;
-    margin: 0
+    margin: 0;
 }
 .footer .logos {
     max-width: fit-content;
@@ -149,6 +214,7 @@ body {
 }
 .footer img {
     width: 140px;
+
 }
 
 .browse {
