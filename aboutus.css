@@ -56,14 +56,24 @@ body {
 #whole-team {
     margin-bottom: 2em;
     display: flex;
+    flex-flow: row nowrap;
     justify-content: space-evenly;
 }
 #whole-team img {
-    width: 40%
+    width: 40%;
 }
 #about-us {
     padding: 2em;
 }
+@media screen and (max-width: 900px) {
+    #whole-team {
+        flex-flow: row wrap;
+    }
+    #whole-team img {
+        width: 100%;
+    }
+}
+
 
 
 #team-pictures {
